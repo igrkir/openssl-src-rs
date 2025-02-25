@@ -5,6 +5,8 @@ use std::fs;
 use std::path::{Path, PathBuf};
 use std::process::Command;
 
+// start CI
+
 pub fn source_dir() -> PathBuf {
     Path::new(env!("CARGO_MANIFEST_DIR")).join("openssl")
 }
